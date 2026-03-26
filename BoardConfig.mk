@@ -22,3 +22,6 @@ include device/xiaomi/mt6893-common/BoardConfigCommon.mk
 
 # Inherit the proprietary files
 include vendor/xiaomi/agate/BoardConfigVendor.mk
+
+TARGET_KERNEL_SOURCE := kernel/xiaomi/agate
+TARGET_KERNEL_CONFIG := agate_defconfig
