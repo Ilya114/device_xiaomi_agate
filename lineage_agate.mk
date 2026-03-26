@@ -23,4 +23,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=agate \
     SystemName=agate
 
-include vendor/lineage-priv/keys/keys.mk
+# include vendor/lineage-priv/keys/keys.mk
