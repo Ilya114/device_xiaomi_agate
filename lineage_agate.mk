@@ -14,7 +14,7 @@ PRODUCT_DEVICE := agate
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 21081111RG
-LINEAGE_MAINTAINER := Ilya114
+EVO_MAINTAINER := Ilya114
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
@@ -23,4 +23,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=agate \
     SystemName=agate
 
-# include vendor/lineage-priv/keys/keys.mk
+# include vendor/evolution-priv/keys/keys.mk
